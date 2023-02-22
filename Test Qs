@@ -1,0 +1,63 @@
+Quadratic Equation
+
+import cmath  
+a = 5.0  
+b = 10.0  
+c = 15.0
+    
+d = (b**2) - (4*a*c)  
+    
+sol1 = (-b-cmath.sqrt(d))/(2*a)  
+sol2 = (-b+cmath.sqrt(d))/(2*a)  
+print('The solution are {0} and {1}'.format(sol1,sol2))   
+---------------
+Arithematic Operation
+
+x = 5.0 
+y = 5.0
+    
+sum = (x) + (y)  
+  
+min = (x) - (y)  
+
+mul = (x) * (y)  
+
+div = (x) / (y)  
+
+print('The sum of {0} and {1} is {2}'.format(x, y, sum))  
+  
+print('The subtraction of {0} and {1} is {2}'.format(x, y, min))  
+
+print('The multiplication of {0} and {1} is {2}'.format(x, y, mul))  
+
+print('The division of {0} and {1} is {2}'.format(x, y, div))
+----------------
+Area of Triangle
+
+a = 5.0
+b = 5.0
+c = 5.0
+   
+s = (a + b + c) / 2  
+  
+area = (s*(s-a)*(s-b)*(s-c)) ** 0.5  
+print('The area of the triangle is %0.2f' %area)
+----------------
+Program to Swap two Variables
+
+P = 5
+Q = 6 
+   
+temp_1 = P  
+P = Q  
+Q = temp_1  
+   
+print ("The Value of P after swapping: ", P)  
+print ("The Value of Q after swapping: ", Q)
+----------------
+Random Number
+
+mport random  
+n = random.randint(1234554, 99999999)  
+print(n)   
+-----------------
